@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topblock-menu">
+        <img src="images/vk_com1600.png" alt="vk icon" class="large-icon vk">
+        <div class="about">
+            <a class = "active" href="#">О клинике</a>
+            <a class = "about-a" href="#">Отзывы</a>
+            <a class = "about-a" href="#">Для пациентов из других стран</a>
+        </div>
+
+        <div class="contact-info">
+
+            <div class="phone-number">
+                <img src="images/telephone-icon.png" alt="telephone icon" class="telephone-icon">
+                <p>8 (800) 551-41-88</p>
+                <img src="images/angle-small-down.svg" alt="angle down" class = "angle">
+            </div>
+            <a id="order-Call">Заказать звонок</a>
+            <div class="search">
+                <img src="images/search-icon.png" alt="search icon" class="search-icon">
+                <p>Поиск</p>
+             </div> 
+        </div>
+    </div>
+
+    <header id = "imt-header">
+        <p id="header-title">Хирургия лишнего веса</p>
+        <a href="#" class="header-a">Услуги и цены</a>
+        <a href="#" class="header-a">Клиника</a>
+        <a href="#" class="header-a">Врачи</a>
+        <a href="#" class="header-a">Контакты</a>
+        
+        <a href="#" id = "lang">ENG</a>
+
+        <button class ="Online mini">Запись Онлайн</button>
+    </header>
+
+    <div id="title">
+        <p id ="main">Главная > О клинике > Калькулятор индекса массы тела</p>
+        <h1>Калькулятор индекса массы тела (ИМТ)</h1>
+    </div>
+
+    <div class="container">
+    <div class="kg">
+        <p class = "p1">Вес, кг: </p>
+        <input type="text" class ="inputCalc firstInput" value = "">
+    </div>
+
+    <div class="height">
+        <p class = "p2">Рост, М(через точку) : </p>
+        <input type="text" class ="inputCalc secondInput" value ="">
+    </div>
+    <button class ="calculate">Рассчитать</button>
+    </div>
+    <p id ="result">Результат:</p>
+    <script src="script.js"></script>
+</body>
+</html>

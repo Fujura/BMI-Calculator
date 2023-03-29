@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kg, .height{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 20px 0 10px 0 ;
+}
+
+.p1{
+  
+    padding: 0 27.5px 0 5px;
+
+    font-size: 23px;
+}
+
+.p2{
+    margin-left: -122px;
+
+    font-size: 23px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputCalc{
+    width: 220px;
+    height: 40px;
+
+    font-size: 20px;
+    color: #ACACAC	;
+
+    border: 1px solid #ACACAC;
+    outline: #ACACAC;
+    
+}
+
+.calculate, .Online{
+    margin: 15px 0 0 0;
+    width: 135px;
+    height: 48px;
+
+    border-radius: 25px;
+    border: 1px solid #0D58A6;
+
+    background-color: #0D58A6;
+    color: #fff;
+
+    font-size: 16.5px;
+    cursor: pointer;
+}
+
+.topblock-menu{
+    display: flex;
+    align-items: center;
+    background-color: #EAEAEA;
+    padding: 7.5px 0;
+}
+
+.telephone-icon{
+    padding-right: 7.5px ;
+
+    width: 17.5px;
+    height: 17.5px;
+
+}
+
+.vk{
+    padding-left: 300px;
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.angle{
+    width: 15px;
+    height: 15px;
+}
+
+.active{
+    color: #0D58A6;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.about{
+    padding-left: 300px ;
+}
+
+.about-a{
+    text-decoration: none;
+    color:#000;
+    padding-right: 30px;
+}
+
+.phone-number{
+    display: flex;
+    align-items: center;
+    padding-left: 175px;
+}
+
+#order-Call{
+    padding-left: 50px;
+    color: #0D58A6;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+    cursor: pointer;
+}
+
+.search-icon{
+    padding-right: 7.5px ;
+
+    width: 17.5px;
+    height: 17.5px;
+
+}
+
+.mini{
+    font-size: 15px;
+    margin-left: 90px;
+    
+}
+
+.header-a{
+    margin-left: 120px;
+    padding: 10px 0;
+
+    border-bottom: 2px solid #0D58A6 ;
+    color: #000;
+
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#imt-header{
+    display: flex;
+    align-items: center;
+
+    height: 100px;
+    border-bottom: 1px solid #ACACAC;
+}
+
+#header-title{
+    
+    padding-left: 300px;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+#lang{
+    padding-left: 75px;
+    color: #0D58A6;
+    
+}
+
+#title{
+    padding-top: 55px;
+    padding-left: 300px;
+}
+
+#main{
+    font-size: 12px;
+    color: #ACACAC;
+}
+
+#resultP{
+    color: #000;
+    margin-left: 300px;
+
+    font-size: 20px;
+}
+
+#result{
+    margin-left: 300px;
+    
+    font-size: 24px;
+}
